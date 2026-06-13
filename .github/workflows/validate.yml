@@ -1,0 +1,19 @@
+name: validate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          lfs: true   # pull real source archives so checksum verification is meaningful
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.x"
+      - name: Validate entries and generated tables
+        run: python3 scripts/archive.py check

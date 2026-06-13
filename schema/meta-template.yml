@@ -1,0 +1,14 @@
+# Copy to tools/<category>/<toolname>/meta.yml and fill out.
+# Values must match the controlled vocabulary in docs/taxonomy.md.
+# This file is the single source of truth — the README tables and the index
+# are generated from it by scripts/archive.py. Do not edit those tables.
+name:
+author:
+year:                    # earliest release year, e.g. 2001 or "~1999"
+released:                # optional, YYYY-MM-DD if a precise date is known
+primary_type:
+secondary_types: []
+model:                   # Open Source / Freeware / Commercial / Unknown
+active:                  # Yes / No / Abandoned / Unknown
+source:                  # Available / Partial / Not Available / Unknown
+status:                  # Stub / Basic / Full / Archived

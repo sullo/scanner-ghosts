@@ -1,0 +1,10 @@
+name: Nikto
+author: Chris Sullo
+year: 2001
+released: 2001-12-27
+primary_type: Web Scanner
+secondary_types: [CGI Scanner, Fingerprinter]
+model: Open Source
+active: Yes
+source: Partial
+status: Full
