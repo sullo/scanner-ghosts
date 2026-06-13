@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/scanner-ghosts.png" alt="Scanner Ghosts logo" width="160">
+</p>
+
 # Scanner Ghosts -- The Security Scanner Archive
 
 > Preserving the history of early web and network security scanning tools before it's gone.
