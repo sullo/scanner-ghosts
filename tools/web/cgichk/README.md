@@ -5,7 +5,6 @@
 ## Metadata
 
 <!-- BEGIN METADATA -->
-
 | Field | Value |
 | --- | --- |
 | **Product Name** | cgichk |
@@ -15,7 +14,6 @@
 | **Secondary Type(s)** |  |
 | **Model** | Open Source |
 | **Active** | No |
-
 <!-- END METADATA -->
 
 ---
@@ -89,11 +87,9 @@ Have either? Add the source to `src/` and update the status.
 ### Checksums
 
 <!-- BEGIN CHECKSUMS -->
-
 | Archive | SHA256 |
 | --- | --- |
 | `src/cgichk1.34.2.c` | `49f75ad6e520c8b96c4615f896c59d4508cb0dd96c285d3065cc79180cbef9ff` |
-
 <!-- END CHECKSUMS -->
 
 ---
