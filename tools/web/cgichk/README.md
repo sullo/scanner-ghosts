@@ -5,6 +5,7 @@
 ## Metadata
 
 <!-- BEGIN METADATA -->
+
 | Field | Value |
 | --- | --- |
 | **Product Name** | cgichk |
@@ -14,6 +15,7 @@
 | **Secondary Type(s)** |  |
 | **Model** | Open Source |
 | **Active** | No |
+
 <!-- END METADATA -->
 
 ---
@@ -47,7 +49,7 @@ This places cgichk firmly in the May–August 1999 cluster of CGI-scanner activi
 
 ## Features
 
-- Probes ~60 known-vulnerable CGI paths (incl. UnlG/THC backdoors, phf, test-cgi, php.cgi, webgais, etc.)
+- Probes \~60 known-vulnerable CGI paths (incl. UnlG/THC backdoors, phf, test-cgi, php.cgi, webgais, etc.)
 - Simple HTTP/1.0 requests, `200`-substring detection, results to stdout
 - Optional `-d` debug mode (`cgichk host -d`)
 - Target port hardcoded to 80 in source (edit `htons(80)` to change)
@@ -69,17 +71,13 @@ This places cgichk firmly in the May–August 1999 cluster of CGI-scanner activi
 
 Source code status: **Partial**
 
-See `src/cgichk1.34.2.c` — the su1d sh3ll recode of the CKS & Fdisk source,
-a single self-contained C file (BSD sockets, no external libraries). Its header
-comment reads *"CGI scanner v1.34, m0dify and recode by su1d sh3ll //UnlG 1999 …
-Source c0de by [CKS & Fdisk]"* with an internal timestamp of `12:00 13.05.99`.
-Compile with `gcc cgichk1.34.2.c -o cgichk`; run with `./cgichk host`.
+See `src/cgichk1.34.2.c` — the su1d sh3ll recode of the CKS & Fdisk source, a single self-contained C file (BSD sockets, no external libraries). Its header comment reads *"CGI scanner v1.34, m0dify and recode by su1d sh3ll //UnlG 1999 … Source c0de by \[CKS & Fdisk\]"* with an internal timestamp of `12:00 13.05.99`. Compile with `gcc cgichk1.34.2.c -o cgichk`; run with `./cgichk host`.
 
 ### Recovered
 
 | Version | Source | Internal date | Notes |
 | --- | --- | --- | --- |
-| v1.34.2 | Packet Storm [id/11875](https://packetstormsecurity.com/files/11875/) | `13.05.99` | su1d sh3ll recode; single C file; ~60 CGI checks; HTTP/1.0; `200`-substring detection |
+| v1.34.2 | Packet Storm [id/11875](https://packetstormsecurity.com/files/11875/) | `13.05.99` | su1d sh3ll recode; single C file; \~60 CGI checks; HTTP/1.0; `200`-substring detection |
 
 ### Wanted
 
@@ -91,9 +89,11 @@ Have either? Add the source to `src/` and update the status.
 ### Checksums
 
 <!-- BEGIN CHECKSUMS -->
+
 | Archive | SHA256 |
 | --- | --- |
 | `src/cgichk1.34.2.c` | `49f75ad6e520c8b96c4615f896c59d4508cb0dd96c285d3065cc79180cbef9ff` |
+
 <!-- END CHECKSUMS -->
 
 ---
@@ -101,7 +101,7 @@ Have either? Add the source to `src/` and update the status.
 ## References & Links
 
 - [Packet Storm id/11875 — cgichk v1.34.2 (su1d sh3ll)](https://packetstormsecurity.com/files/11875/)
-- HWA ezine #19 — CGI Checker v1.35 (Content wanted)
+- [HWA ezine #19 — CGI Checker v1.35 su1d sh3ll //UnlG](http://web.textfiles.com/ezines/HWA/hwa-hn19.txt)
 
 ---
 
