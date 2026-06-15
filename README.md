@@ -72,9 +72,9 @@ predates any tool — possibly recorded in a t-file that has not yet surfaced.
 
 ### What we're looking for
 
-- Source for the **Bronc Buster / LoU** scanner ([id/12316](https://packetstormsecurity.com/files/12316/) and any earlier copy) to confirm the Nov 1998 claim
+- Source for the **Bronc Buster / LoU** scanner ([id/12316](https://packetstormsecurity.com/files/12316/) any earlier version) to confirm the Nov 1998 claim
 - The unfound **"version 1"** that `|MMX|` was derived from
-- Dated **mailing-list or newsgroup posts**, EFnet `#hack` logs, or t-files discussing CGI vulns pre-1999
+- Dated **mailing-list or newsgroup posts**, EFnet `#hack` logs, or messaging discussing CGI vulns/scanners pre-2000
 - Any **CKS & Fdisk** originals predating the su1d sh3ll repackaging
 
 Have a file, a post, or a firsthand account? Open an issue — even a lead with no
