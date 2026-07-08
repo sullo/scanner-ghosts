@@ -134,6 +134,7 @@ Documentation: the Anti-IDS tactics paper was recovered from the Wayback Machine
 - [Whisker/anti-IDS tactics paper (Wayback)](https://web.archive.org/web/20010301000000*/http://www.wiretrip.net/rfp/txt/whiskerids.html)
 - [Bugtraq announcement](https://seclists.org/bugtraq/1999/Oct/190)
 - [Packet Storm listing](https://packetstormsecurity.com/files/search/?q=whisker)
+- [whisker-devel mailing list archive (SourceForge — still up)](https://sourceforge.net/p/whisker/mailman/whisker-devel/)
 
 ---
 
@@ -142,3 +143,5 @@ Documentation: the Anti-IDS tactics paper was recovered from the Wayback Machine
 Rain Forest Puppy (later publicly identified as Jeff Forristal) kept his identity pseudonymous for much of this era. Active development of Whisker ended ~2002 in favor of libwhisker. He was active in the security community through approximately 2002–2003, then largely disappeared from public view. His research — particularly on IIS vulnerabilities and CGI scanning methodology — had outsized influence.
 
 Libwhisker2 continued to be maintained by the Nikto project after Whisker itself was abandoned.
+
+The project's **`whisker-devel` mailing list archive is still live on SourceForge** ([sourceforge.net/p/whisker/mailman/whisker-devel](https://sourceforge.net/p/whisker/mailman/whisker-devel/)) — a rare primary-source dev record from the era that survives outside the Wayback Machine.
